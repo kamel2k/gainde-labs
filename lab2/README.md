@@ -54,6 +54,10 @@ Dans le fichier application.properties, bien définir l'attribut **spring.applic
 spring.application.name=manifeste-service
 ```
 
+## Architecture du module manifeste-service
+
+![](images/layers.png)
+
 ## Création des entitées du modèle
 
 Créer une nouvelle classe java **Manifeste** dans le package **model** avec le contenu suivant
