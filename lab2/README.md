@@ -301,7 +301,9 @@ Les URLs de l'application sont à définir
 
 ### Création d'un nouveau manifeste avec REST
 
-Realiser une opération HTTP de type POST à l'aide de Postman pour créer un nouveau manifeste. Voici les données d'exemple
+Realiser une opération HTTP de type POST à l'aide de Postman pour créer un nouveau manifeste. Voici les données d'exemple.
+
+http://localhost:8080/v1/manifeste
 
 ```
 {
