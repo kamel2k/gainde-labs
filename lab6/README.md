@@ -139,7 +139,7 @@ spring.boot.admin.client.instance.name=manifeste-service
 spring.boot.admin.client.url=http://localhost:9105
 ```
 
-Démarrer le module **manifeste-service** et voir le résultat dans le dashboard de **admin-service**
+Redémarrer le module **manifeste-service** et voir le résultat dans le dashboard de **admin-service**
 
 **Analyser le contenu du dashboard**
 
