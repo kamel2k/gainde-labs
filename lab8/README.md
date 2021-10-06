@@ -18,7 +18,7 @@ Avec Spring Initializr, chercher la déclaration de la dépendance Spring Cloud 
 ```
 manifeste-service
 declaration-service
-? gateway-service ?
+gateway-service
 ```
 
 Recompiler les projets et faites des appels vers les différents modules applicatifs. Voir dans les logs les informations affichées.
@@ -86,15 +86,20 @@ Pour finir rajouter la dépendance suivante dans tous les modules applicatifs (m
 </dependency>
 ```
 
-## Redemarrer le manifeste et la déclaration
+## Redemarrer le manifeste et la déclaration et la gateway
 
 Après la mise en place de zipkin client dans les modules applicatifs, lancer la commande
 ```
 mvn spring-boot:run
 ```
 
+
 Faites des tests et voir le résultat dans zipkin.
 
+Exemple de test en passant par la gateway
+```
+http://localhost:8072/declaration-service/v1/declaration/manifeste?id=1
+```
 
 
 ## Pour résumer
