@@ -101,6 +101,9 @@ Exemple de test en passant par la gateway
 http://localhost:8072/declaration-service/v1/declaration/manifeste?id=1
 ```
 
+Analyser l'arbre de dépendances
+
+![](images/zipkin.png)
 
 ## Pour résumer
 
