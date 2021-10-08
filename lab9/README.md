@@ -110,7 +110,7 @@ et cliquer sur save
 
 * Cliquer sur l'onglet credentials
 
-saisir le mot de passe : kamel et desactiver "temporary"
+saisir le mot de passe : kamel et desactiver "temporary" et cliquer sur le bouton "Set Password" puis valider.
 
 ![](images/7.png)
 
@@ -130,8 +130,6 @@ copier le token_endpoint :
 ```
 http://localhost:8180/auth/realms/gainde-realm/protocol/openid-connect/token
 ```
-
-* Decompiler le token dans jwt.io (optionnel)
 
 * Maintenant on simule un utilisateur qui veut un accès token
 
@@ -156,6 +154,8 @@ A l'aide de POSTMAN faire cela
 
 ![](images/10.png)
 
+
+* Decompiler le token dans jwt.io (optionnel)
 
 ## Mise en place de la sécurité au niveau de la gateway
 
